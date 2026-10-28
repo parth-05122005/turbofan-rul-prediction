@@ -1,0 +1,1 @@
+"""Federated Predictive Maintenance package."""

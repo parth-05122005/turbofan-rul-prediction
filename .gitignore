@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+
+# Unused C-MAPSS subsets (only FD001 and FD002 are used)
+data/raw/*FD003.txt
+data/raw/*FD004.txt
+data/processed/
+
+# Reports, slides and paper drafts (not part of the code submission)
+Book_Chapter/
+report/
+*.docx
+*.pptx
+*.tex
+generate_doc.py
+generate_ppt.py
+src/notebook_generator.py
+VIDEO_SCRIPT.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
