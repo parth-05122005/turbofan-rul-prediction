@@ -16,7 +16,8 @@ Modern industrial operations (aviation, manufacturing, heavy equipment) rely on 
 This project investigates:
 1. **Signal Extraction**: Which sensor channels exhibit true monotonic degradation trends vs. flat uninformative constants?
 2. **Tabular vs. Sequence Modeling**: How much predictive accuracy is gained by moving from engineered tabular features (Linear, Random Forest, XGBoost) to deep temporal sequence models (MLP, LSTM, GRU, CNN-LSTM)?
-3. **Federated Learning Trade-Offs**: If $K$ factories collaboratively train via **FedAvg** without exchanging raw data, how close does the global model get to centralized pooling, and how much does it outperform isolated local models?
+3. **Federated Learning Trade-Offs**: If $K$ factories collaboratively train via **FedAvg** without exchanging raw data, how close does the global model get to centralized pooling, and how much does it outperform the isolated local models?
+4. **Model Interpretability and Generalization: Which sensors and operating conditions contribute most to RUL predictions, and how well do the trained models generalize to unseen engines under varying operating conditions?
 
 ```
                       +-------------------------------------------------------------+
